@@ -8,7 +8,7 @@ class Y
         System.out.println(a+" "+b+" "+c);
     }
 }
-class B  /*don't access its a private constructor*/ /*give error*/
+class B  /* don't access its a private constructor and will give error */
   {
     public static void main(String[] args) {
         Y r=new Y();
